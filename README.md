@@ -1,4 +1,4 @@
-# Startup Webpage 3MTT Assessment Project
+# Startup Website 3MTT Assessment Project
 
 This project is a simple, responsive webpage designed for startups. It contains multiple links to different pages within the site, offering an accessible layout for users across mobile devices. The webpage is built using HTML and CSS, with JavaScript functionality.
 
