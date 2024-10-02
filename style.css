@@ -45,7 +45,8 @@ body {
 }
 .wrapper {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.3rem;
+  width: 100%;
 }
 header {
   display: flex;
@@ -70,10 +71,11 @@ header h1 {
   display: block;
   object-fit: cover;
   width: 100%;
+  height: auto;
 }
 
 .hero--img__section {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: var(--white);
 }
 
@@ -95,7 +97,7 @@ header h1 {
   background: var(--white);
   padding: 0.75rem 3rem;
   text-align: center;
-  width: 50%;
+  width: 56%;
   font-weight: 500;
   border-radius: 5px;
   font-size: var(--xmedium);
@@ -154,6 +156,8 @@ header h1 {
 .partners__img {
   display: block;
   object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .partners__group2 {
@@ -180,7 +184,7 @@ header h1 {
 }
 
 .article__btn {
-  width: 56%;
+  width: 60%;
 }
 
 .article2 {
@@ -273,7 +277,7 @@ header h1 {
   gap: 1rem;
 }
 
-.footer__layout{
+.footer__layout {
   background: var(--green);
 }
 
@@ -289,4 +293,107 @@ header h1 {
   margin: 1rem auto;
   font-size: 1.3rem;
   color: var(--white);
+}
+
+/* media queries for responsiveness */
+
+@media (min-width: 720px) {
+  .wrapper {
+    padding: 2.3rem;
+  }
+
+  .hero--img__section {
+    margin-top: 2rem;
+  }
+
+  .hero--img__section h2 {
+    margin-top: 2rem;
+    font-size: var(--xmedium);
+  }
+
+  .hero--img__section h3 {
+    font-size: var(--large);
+  }
+
+  .btn {
+    font-size: var(--medium);
+    width: 40%;
+  }
+
+  .btn__wrapper p {
+    font-size: var(--xmedium);
+  }
+
+  .partners__group1 {
+    gap: 2rem;
+  }
+
+  .partners__img {
+    width: 70%;
+  }
+
+  .partners__group1 h2 {
+    font-size: var(--xmedium);
+  }
+
+  .partners__group1 h3 {
+    font-size: var(--large);
+  }
+
+  .partners__group1 p {
+    font-size: var(--xmedium);
+  }
+
+  .partners__btn {
+    width: 50%;
+    font-size: var(--medium);
+  }
+
+  .article1 h3 {
+    font-size: var(--large);
+  }
+
+  .article1 p {
+    font-size: var(--medium);
+  }
+
+  .article__btn {
+    width: 50%;
+    font-size: var(--medium);
+  }
+
+  .article2 h3 {
+    font-size: var(--large);
+  }
+
+  .article2 p {
+    font-size: var(--medium);
+  }
+
+  .team__talent {
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .team__btn {
+    width: 50%;
+    font-size: var(--medium);
+  }
+
+  .social__links {
+    gap: 2rem;
+  }
+
+  .footer__icon {
+    display: block;
+    width: 50px;
+    height: auto;
+  }
+
+  .footer__icon--facebook {
+    width: 30px;
+  }
+  .footer__copyright {
+    font-size: var(--medium);
+  }
 }
