@@ -67,6 +67,19 @@ header h1 {
   gap: 0.5rem;
 }
 
+.logo {
+  display: block;
+  object-fit: cover;
+  width: 50px;
+  height: auto;
+}
+
+.menu {
+  display: block;
+  object-fit: cover;
+  width: 50px;
+  height: auto;
+}
 .hero__img {
   display: block;
   object-fit: cover;
@@ -298,6 +311,18 @@ header h1 {
 /* media queries for responsiveness */
 
 @media (min-width: 720px) {
+  .logo__container h1 {
+    font-size: var(--xlarge);
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .menu {
+    width: 70px;
+  }
+
   .wrapper {
     padding: 2.3rem;
   }
@@ -342,6 +367,11 @@ header h1 {
 
   .partners__group1 p {
     font-size: var(--xmedium);
+  }
+
+  .partners__group1 .description {
+    width: 60%;
+    margin-left: 8rem;
   }
 
   .partners__btn {
@@ -395,5 +425,112 @@ header h1 {
   }
   .footer__copyright {
     font-size: var(--medium);
+  }
+}
+
+/* media queries for tablet screens */
+@media (min-width: 820px) {
+  .hero--img__section h2 {
+    font-size: var(--medium);
+  }
+
+  .hero--img__section h3 {
+    font-size: var(--xlarge);
+  }
+
+  .btn__wrapper {
+    margin-top: 1.5rem;
+    gap: 2rem;
+  }
+
+  .btn__wrapper p {
+    font-size: var(--medium);
+  }
+
+  .btn {
+    font-size: var(--large);
+    width: 35%;
+  }
+
+  .partners__group1 h2 {
+    font-size: var(--medium);
+  }
+
+  .partners__group1 h3 {
+    font-size: var(--xlarge);
+  }
+  .partners__group1 p {
+    font-size: var(--large);
+  }
+
+  .partners__group1 .description {
+    margin-left: 4rem;
+    width: 80%;
+  }
+
+  .partners__img {
+    width: 57%;
+  }
+
+  .partners__btn {
+    font-size: var(--large);
+    width: 40%;
+  }
+
+  .article1 h3 {
+    font-size: var(--xlarge);
+  }
+  .article1 p {
+    font-size: var(--large);
+  }
+
+  .article2 h3 {
+    font-size: var(--xlarge);
+  }
+  .article2 p {
+    font-size: var(--large);
+  }
+  .article__btn {
+    font-size: var(--large);
+    width: 35%;
+  }
+
+  .team__talent {
+    width: 50%;
+    padding: 3rem;
+  }
+
+  .team__talent .head__ceo {
+    font-size: var(--large);
+  }
+
+  .team__talent .ceo__position {
+    font-size: var(--medium);
+    margin-right: 14rem;
+  }
+  .team__talent .head__cto {
+    font-size: var(--large);
+    margin-right: 1rem;
+  }
+
+  .team__talent .lead__designer {
+    font-size: var(--large);
+  }
+
+  .team__talent .designer__position {
+    font-size: var(--medium);
+    margin-right: 10.5rem;
+  }
+
+  .team__talent .lead__developer {
+    font-size: var(--large);
+  }
+
+  .team__talent .developer__position {
+    font-size: var(--medium);
+    margin-right: 7.5rem;
+  }
+  .team__btn {
+    width: 35%;
   }
 }
