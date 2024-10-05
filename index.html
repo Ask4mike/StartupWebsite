@@ -17,6 +17,12 @@
             />
             <h1>Start</h1>
           </div>
+          <nav class="nav__list">
+            <li class="nav__link">home</li>
+            <li class="nav__link">portfolio</li>
+            <li class="nav__link">services</li>
+            <li class="nav__link">contact</li>
+          </nav>
           <img
             src="./src/svg/Menu.svg"
             alt="This is the image of the menu icon"
@@ -29,16 +35,18 @@
             alt="This is the image of the hero section"
             class="hero__img"
           />
-          <h2>welcome</h2>
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
-        </div>
-        <div class="btn__wrapper">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
-            voluptate culpa nesciunt delectus iste?
-          </p>
-          <a href="#" class="btn">Explore</a>
+          <div class="hero__text">
+            <h2>welcome</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <div class="btn__wrapper">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
+                error ipsum, voluptate culpa nesciunt delectus iste?
+              </p>
+              <a href="#" class="btn">Explore</a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -74,8 +82,8 @@
             src="./src/images/spotify.png"
             alt="This is the image of Spotify's logo"
             class="partners__img"
-          />
-          <a href="#" class="btn__dark partners__btn">Learn More</a>
+            />
+            <a href="#" class="btn__dark partners__btn">Learn More</a>
         </div>
       </section>
 
@@ -120,90 +128,94 @@
           <p class="description">Lorem ipsum, dolor sit amet consectetur</p>
           <p>adipisicing elit.</p>
         </div>
-        <div class="team__talent">
-          <img
-            src="./src/images/CEO.png"
-            alt="This is the image of the CEO"
-            width="250"
-            class="team__talent--img"
-          />
-          <h3 class="head__ceo">Peg Legge</h3>
-          <p class="ceo__position">ceo</p>
+        <div class="talent">
+          <div class="team__talent">
+            <img
+              src="./src/images/CEO.png"
+              alt="This is the image of the CEO"
+              width="250"
+              class="team__talent--img"
+            />
+            <h3 class="head__ceo">Peg Legge</h3>
+            <p class="ceo__position">ceo</p>
+          </div>
+          <div class="team__talent">
+            <img
+              src="./src/images/CTO.png"
+              alt="This is the image of the CTO"
+              width="250"
+              class="team__talent--img"
+            />
+            <h3 class="head__cto">Richard Guerra</h3>
+            <p class="ceo__position">cto</p>
+          </div>
+          <div class="team__talent">
+            <img
+              src="./src/images/Designer.png"
+              alt="This is the image of the Lead Designer"
+              width="250"
+              class="team__talent--img"
+            />
+            <h3 class="lead__designer">Alexandra Stolz</h3>
+            <p class="designer__position">designer</p>
+          </div>
+          <div class="team__talent">
+            <img
+              src="./src/images/Developer.png"
+              alt="This is the image of the Lead Developer"
+              width="250"
+              class="team__talent--img"
+            />
+            <h3 class="lead__developer">Janet Bray</h3>
+            <p class="developer__position">developer</p>
+          </div>
+          <a href="#" class="btn__dark team__btn">Learn More</a>
         </div>
-        <div class="team__talent">
-          <img
-            src="./src/images/CTO.png"
-            alt="This is the image of the CTO"
-            width="250"
-            class="team__talent--img"
-          />
-          <h3 class="head__cto">Richard Guerra</h3>
-          <p class="ceo__position">cto</p>
-        </div>
-        <div class="team__talent">
-          <img
-            src="./src/images/Designer.png"
-            alt="This is the image of the Lead Designer"
-            width="250"
-            class="team__talent--img"
-          />
-          <h3 class="lead__designer">Alexandra Stolz</h3>
-          <p class="designer__position">designer</p>
-        </div>
-        <div class="team__talent">
-          <img
-            src="./src/images/Developer.png"
-            alt="This is the image of the Lead Developer"
-            width="250"
-            class="team__talent--img"
-          />
-          <h3 class="lead__developer">Janet Bray</h3>
-          <p class="developer__position">developer</p>
-        </div>
-        <a href="#" class="btn__dark team__btn">Learn More</a>
       </section>
 
-      <footer class="wrapper footer__layout">
-        <div class="social__links">
-          <img
-            src="./src/svg/facebook.svg"
-            alt="link to facebook profile"
-            class="footer__icon footer__icon--facebook"
-          />
-          <img
-            src="./src/svg/instagram.svg"
-            alt=" link to instagram profile"
-            class="footer__icon"
-          />
-          <img
-            src="./src/svg/twitter.svg"
-            alt=" link to twitter profile"
-            class="footer__icon"
-          />
-          <img
-            src="./src/svg/pinterest.svg"
-            alt=" link to pinterest profile"
-            class="footer__icon"
-          />
-          <img
-            src="./src/svg/tiktok.svg"
-            alt=" link to tiktok profile"
-            class="footer__icon"
-          />
-          <img
-            src="./src/svg/whatsapp.svg"
-            alt=" link to whatsapp profile"
-            class="footer__icon"
-          />
-          <img
-            src="./src/svg/youtube.svg"
-            alt=" link to youtube profile"
-            class="footer__icon"
-          />
+      <footer class="footer__layout">
+        <div class="wrapper">
+          <div class="social__links">
+            <img
+              src="./src/svg/facebook.svg"
+              alt="link to facebook profile"
+              class="footer__icon footer__icon--facebook"
+            />
+            <img
+              src="./src/svg/instagram.svg"
+              alt=" link to instagram profile"
+              class="footer__icon"
+            />
+            <img
+              src="./src/svg/twitter.svg"
+              alt=" link to twitter profile"
+              class="footer__icon"
+            />
+            <img
+              src="./src/svg/pinterest.svg"
+              alt=" link to pinterest profile"
+              class="footer__icon"
+            />
+            <img
+              src="./src/svg/tiktok.svg"
+              alt=" link to tiktok profile"
+              class="footer__icon"
+            />
+            <img
+              src="./src/svg/whatsapp.svg"
+              alt=" link to whatsapp profile"
+              class="footer__icon"
+            />
+            <img
+              src="./src/svg/youtube.svg"
+              alt=" link to youtube profile"
+              class="footer__icon"
+            />
+          </div>
+          <p class="footer__copyright">© Start, 2022. All rights reserved.</p>
         </div>
-        <p class="footer__copyright">© Start, 2022. All rights reserved.</p>
       </footer>
     </main>
-    <script type="module" src="/main.js"></script>
+    <script type="module" async defer  src="/main.js"></script>
   </body>
 </html>
