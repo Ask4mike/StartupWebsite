@@ -670,7 +670,7 @@ header h1 {
     width: 65%;
   }
   .team__talent {
-    width: 300px;
+    width: 290px;
     padding: .8rem;
   }
 
@@ -690,23 +690,46 @@ header h1 {
 
   .team__talent .lead__designer {
     font-size: var(--x2small);
+    margin-right: 2rem;
     
   }
 
   .team__talent .designer__position {
     font-size: var(--small);
-    margin-right: 0rem;
+    margin-right: 5rem;
   }
 
   .team__talent .lead__developer {
     font-size: var(--x2small);
+    margin-right: 3rem;
   }
 
   .team__talent .developer__position {
     font-size: var(--small);
-    margin-right: 0rem;
+    margin-right: 2.8rem;
   }
   .team__btn {
     width: 20%;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+    .footer__icon {
+    display: block;
+    width: 25px;
+    height: auto;
+  }
+
+  .footer__icon--facebook {
+    width: 15px;
+  }
+
+  .footer__copyright {
+    font-size: var(--x2small);
+    margin-right:2rem;
   }
 }
