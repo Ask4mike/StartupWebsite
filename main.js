@@ -15,7 +15,7 @@ ChangeText();
 function PartnersBtnText() {
   const patners = document.querySelector(".partners__btn");
   document.addEventListener("drag", () => {
-    patners.textContent = "Contact";
+    patners.textContent = "partner";
   });
 }
 PartnersBtnText();
