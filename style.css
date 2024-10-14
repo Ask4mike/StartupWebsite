@@ -37,6 +37,13 @@ body {
   --x5large: 5rem;
 }
 
+/* Fade-in animation */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible; /* Make elements visible when they start to fade in */
+}
+
 .hero__section {
   background: var(--green);
   padding-bottom: 2rem;
@@ -671,7 +678,7 @@ header h1 {
   }
   .team__talent {
     width: 290px;
-    padding: .8rem;
+    padding: 0.8rem;
   }
 
   .team__talent .head__ceo {
@@ -691,7 +698,6 @@ header h1 {
   .team__talent .lead__designer {
     font-size: var(--x2small);
     margin-right: 2rem;
-    
   }
 
   .team__talent .designer__position {
@@ -718,7 +724,7 @@ header h1 {
     justify-content: space-between;
   }
 
-    .footer__icon {
+  .footer__icon {
     display: block;
     width: 25px;
     height: auto;
@@ -730,6 +736,6 @@ header h1 {
 
   .footer__copyright {
     font-size: var(--x2small);
-    margin-right:2rem;
+    margin-right: 2rem;
   }
 }
